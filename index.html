@@ -22,8 +22,11 @@
             extend: {
               colors: {
                 'bike-primary': '#e76e51',
+                'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
               }
-            }
+            }      
+
+
           }
         }
       </script>
@@ -59,7 +62,7 @@
         <li><a>contact</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost text-4xl">Biker-Zone</a>
+    <a class="btn btn-ghost text-xl lg:text-4xl">Biker-Zone</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal text-base px-1">
@@ -75,12 +78,191 @@
 </div>
     </nav>
 
+    <div class="carousel w-full bg-bike-primary-bg h-[550px]">
+        <div id="slide1" class="carousel-item relative w-full">
+         
+            <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24 items-center">
+            <div class="space-y-7 flex-1">
+                <h2 class=" text-2xl lg:6xl font-bold">
+                    Ride-On R15 v4 
+                    <br>
+                    with smile
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit 
+                    amet consectetur adipisicing 
+                    elit.
+                    A dolores assumenda,
+                    perspiciatis alias perferendis
+                    sint!
+                </p>
+                <button class="btn  bg-bike-primary text-white">Purchase now</button>
+            </div>
+            <div class="flex-1">
+                <img src="images/slider/bike1.png" class="w-[400px]" />
+            </div>
+          </div>
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>  
+        <div id="slide2" class="carousel-item relative w-full">
+            <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24 items-center">
+                <div class="space-y-7 flex-1">
+                    <h2 class=" text-2xl lg:6xl font-bold">
+                        Ride-On R15 v4 
+                        <br>
+                        with smile
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit 
+                        amet consectetur adipisicing 
+                        elit.
+                        A dolores assumenda,
+                        perspiciatis alias perferendis
+                        sint!
+                    </p>
+                    <button class="btn  bg-bike-primary text-white">Purchase now</button>
+                </div>
+                <div class="flex-1">
+                    <img src="images/slider/bike2.png" class="w-[400px]" />
+                </div>
+              </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+            <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24 items-center">
+                <div class="space-y-7 flex-1">
+                    <h2 class=" text-2xl lg:6xl font-bold">
+                        Ride-On R15 v4 
+                        <br>
+                        with smile
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit 
+                        amet consectetur adipisicing 
+                        elit.
+                        A dolores assumenda,
+                        perspiciatis alias perferendis
+                        sint!
+                    </p>
+                    <button class="btn  bg-bike-primary text-white">Purchase now</button>
+                </div>
+                <div class="flex-1">
+                    <img src="images/slider/bike3.png" class="w-[400px]" />
+                </div>
+              </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+            <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24 items-center">
+                <div class="space-y-7 flex-1">
+                    <h2 class=" text-2xl lg:6xl font-bold">
+                        Ride-On R15 v4 
+                        <br>
+                        with smile
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit 
+                        amet consectetur adipisicing 
+                        elit.
+                        A dolores assumenda,
+                        perspiciatis alias perferendis
+                        sint!
+                    </p>
+                    <button class="btn  bg-bike-primary text-white">Purchase now</button>
+                </div>
+                <div class="flex-1">
+                    <img src="images/slider/bike1.png" class="w-[400px]" />
+                </div>
+              </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+
 </header>
 
 <main class="md:container md:mx-auto">
 
-</main>
+<!-- feature bike  -->
+<section class=" my-24">
+ <h2 class="text-5xl font-semibold text-center mb-12 ">Fetured Bikes In This Year</h2>
+<div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ml-5 gap-5">
+    <div><img src="images/others/feature-bike.png" alt=""></div>
+    <div><img src="images/others/feature-bike.png" alt=""></div>
+    <div><img src="images/others/feature-bike.png" alt=""></div>
+</div>
 
+</section>
+<!-- latest news  -->
+<section class="my-24">
+
+    <h3 class="text-5xl font-semibold text-center mb-12">latest bikes</h3>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
+        <!-- first card  -->
+        <div class="card w-96 glass">
+            <figure><img src="images/others/latest1.png" alt="car!"/></figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl">ducatti</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui delectus est temporibus
+                 adipisci itaque totam. Cumque, quisquam nesciunt.</p>
+              <div class="card-actions justify-end">
+                <button class="btn bg-bike-primary uppercase text-white">purchase</button>
+              </div>
+            </div>
+          </div>
+        <!-- 2nd card  -->
+        <div class="card w-96 glass">
+            <figure><img src="images/others/latest2.png" alt="car!"/></figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl">ducatti</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui delectus est temporibus
+                 adipisci itaque totam. Cumque, quisquam nesciunt.</p>
+              <div class="card-actions justify-end">
+                <button class="btn bg-bike-primary uppercase text-white">purchase</button>
+              </div>
+            </div>
+          </div>
+        <!-- 3rd card  -->
+        <div class="card w-96 glass">
+            <figure><img src="images/others/latest3.png" alt="car!"/></figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl">ducatti</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui delectus est temporibus
+                 adipisci itaque totam. Cumque, quisquam nesciunt.</p>
+              <div class="card-actions justify-end">
+                <button class="btn bg-bike-primary uppercase text-white">purchase</button>
+              </div>
+            </div>
+          </div>
+
+
+    </div>
+
+
+
+</section>
+
+
+<section>
+    <h2 class="text-5xl font-semibold text-center mb-12 capitalize">Happy clients says</h2>
+
+
+</section>
+
+</main>
 <footer>
 
 
